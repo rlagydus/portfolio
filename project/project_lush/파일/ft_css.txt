@@ -1,0 +1,30 @@
+/*footer*/
+#wrap #wrap_bg footer {background-color:#2c2c2c;}
+#wrap #wrap_bg footer #ft_contents {width:1300px; margin:0 auto; padding:39px 0;}
+/*footer top 康开*/
+#wrap #wrap_bg footer #ft_contents #ft_top {overflow:hidden;}
+#wrap #wrap_bg footer #ft_contents #ft_top > a {float:left; margin-top:11px;}
+#wrap #wrap_bg footer #ft_contents #ft_top a img {}
+#wrap #wrap_bg footer #ft_contents #ft_top .sns_icon {float:left; overflow:hidden; margin:0 0 0 100px;}
+#wrap #wrap_bg footer #ft_contents #ft_top .sns_icon li {float:left; margin-right:10px;}
+#wrap #wrap_bg footer #ft_contents #ft_top .sns_icon li a {}
+#wrap #wrap_bg footer #ft_contents #ft_top .sns_icon li a img {}
+#wrap #wrap_bg footer #ft_contents #ft_top ul {float:right; overflow:hidden; margin-top:12px;}
+#wrap #wrap_bg footer #ft_contents #ft_top ul li {float:left; font-size:0.875em; margin-right:52px;}
+#wrap #wrap_bg footer #ft_contents #ft_top ul li:last-child {margin-right:0;}
+#wrap #wrap_bg footer #ft_contents #ft_top ul li a {color:#fff;}
+/*footer bottom 康开*/
+#wrap #wrap_bg footer #ft_contents #ft_btm {overflow:hidden; margin-top:30px;}
+/*footer bottom left 康开*/
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_left {float:left;}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_left p {color:#fff; line-height:1.25; margin-bottom:13px;}
+/*footer bottom right 康开*/
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right {float:right; text-align:right;}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter {}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter p {font-size:1.063em; margin-bottom:20px;}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter .lush_news {}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter .lush_news .news_email {border:none; padding:7px 120px 7px 5px; margin-right:10px;}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter .lush_news .news_btn {border:1px solid #fff; background-color:#2c2c2c; color:#fff; font-size:0.750em; cursor:pointer; padding:7px 25px;}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right p {color:#fff; font-size:0.875em;}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right > p {line-height:1.5; margin-top:10px;}
+#wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .copy {font-size:0.750em; margin-top:10px;}

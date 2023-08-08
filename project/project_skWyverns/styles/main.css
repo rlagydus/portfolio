@@ -1,0 +1,7 @@
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#3c3c3c; box-sizing:border-box;
+} /*필수*/
+html, body {}
+a {color:#3c3c3c; text-decoration:none;}
+.skip {display:none;}

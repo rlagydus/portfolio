@@ -1,0 +1,142 @@
+/*미디어쿼리 반응형웹*/
+/*데스크탑pc 1224*/
+@media screen and (max-width:1224px){
+    
+    
+} /*1224px end*/
+/*태블릿 1024*/
+@media screen and (max-width:1024px){
+    /*header*/
+    header .h_wrap {width:100%;}
+    header .h_wrap nav {width:65%;}
+    header .h_wrap nav ul li {margin-right:3%;}
+    header .h_wrap nav ul li a {font-size:1em;}
+    header .h_wrap .h_right ul:nth-child(1) {display:none;}
+    
+    /*서브메뉴*/
+    header .sub_menu_wrap .sub_contents {width:100%;}
+    header .sub_menu_wrap .sub_contents ul li .sub_sub_wrap h2 {font-size:1.3em;}
+    header .sub_menu_wrap .sub_contents ul li .sub_sub_wrap p {font-size:0.8em;}
+    header .sub_menu_wrap .sub_contents ul li .sub_sub_wrap h3 {font-size:1em;}
+    header .sub_menu_wrap .sub_contents ul li .sub_sub_wrap ul li a {font-size:0.9em;}
+    
+    /*section1*/
+    #fullpage #section1 .page_container {width:100%;}
+    #fullpage #section1 .page_container .s2_top ul li {width:25%; margin-right:20px;}
+    #fullpage #section1 .page_container .s2_btm ul li {width:25%; margin-right:20px;}
+    #fullpage #section1 .page_container .s2_top ul li:nth-child(3) {width:40%;}
+    #fullpage #section1 .page_container .s2_top ul li:nth-child(1) a, #fullpage #section1 .page_container .s2_top ul li:nth-child(2) a {height:25%;}
+    #fullpage #section1 .page_container .s2_btm ul li:nth-child(1) {width:40%;}
+    #fullpage #section1 .page_container .s2_btm ul li:nth-child(2) a, #fullpage #section1 .page_container .s2_btm ul li:nth-child(3) a {height:25%;}
+    
+    /*section2*/
+    #fullpage #section2 .page3_wrap .page_container {width:100%;}
+    #fullpage #section2 .page3_wrap .page_container .s3_tap li {width:10%; height:85%;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents .s3_explain {top:20px; height:250px;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents .s3_explain h3 {font-size:1.5em;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents .s3_explain p {font-size:0.9em;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents .s3_explain .s3_btn {margin-top:20px;}
+    
+    /*section3*/
+    #fullpage #section3 .page_container {width:100%;}
+    #fullpage #section3 .page_container .s4_contents {margin-top:60px;}
+    #fullpage #section3 .page_container .s4_contents ul {width:100%;}
+    #fullpage #section3 .page_container .s4_contents ul li {width:49%; height:50%;}
+    #fullpage #section3 .page_container .s4_contents ul li:nth-child(1), #fullpage #section3 .page_container .s4_contents ul li:nth-child(3) {margin-top:0;}
+    #fullpage #section3 .page_container .s4_contents ul li:nth-child(3), #fullpage #section3 .page_container .s4_contents ul li:nth-child(4) {margin-top:20px;}
+    #fullpage #section3 .page_container .s4_contents ul li a h3 {font-size:1.3em; padding:20px 0 20px 30px;}
+    #fullpage #section3 .page_container .s4_contents ul li a p {padding:0 40px 0 30px; font-size:0.9em;}
+    #fullpage #section3 .page_container .s4_contents ul li a .s3_img {height:180px;}
+    
+    /*footer*/
+    #fullpage #section4 .ft_wrap .ft_top .ft_top_con {width:100%;}
+    #fullpage #section4 .ft_wrap .ft_top .ft_top_con h2 {font-size:1.5em; margin-top:35px;}
+    #fullpage #section4 .ft_wrap .ft_top .ft_top_con .ft_top_con_right ul li {margin:20px 50px 0 0;}
+    #fullpage #section4 .ft_wrap .ft_top .ft_top_con .ft_top_con_right ul li a {font-size:0.9em;}
+    
+    #fullpage #section4 .ft_wrap .ft_btm .ft_btm_con {width:100%;}
+    #fullpage #section4 .ft_wrap .ft_btm .ft_btm_con .ft_btm_right {float:left;}
+    #fullpage #section4 .ft_wrap .ft_btm .ft_btm_con .ft_btm_right .ft_btm_right_btm {width:60%; margin-top:20px;}
+    
+} /*1024px end*/
+/*모바일 800*/
+@media screen and (max-width:800px){
+    .main_title {font-size:2.2em;}
+    
+    /*header*/
+    header .h_wrap nav {display:none;}
+    
+    /*section1*/
+    #fullpage #section1 .page_container .s2_top {margin:50px 0 0;}
+    #fullpage #section1 .page_container .s2_top ul li {clear:both; width:100%; background-size:100%; margin-bottom:20px}
+    #fullpage #section1 .page_container .s2_top ul li:nth-child(3) {width:100%; background-size:100%;}
+    #fullpage #section1 .page_container .s2_btm {display:none;}
+    #fullpage #section1 .page_container .s2_btn {display:none;}
+    
+    /*section2*/
+    #fullpage #section2 .page3_wrap .page_container .s3_tap li {width:12.5%; height:100px; border-radius:0; margin-right:0;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents .s3_explain {padding:20px 50px;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents .s3_explain .s3_btn {width:35px;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents img {width:90%;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents .s3_explain {width:80%; height:200px; top:200px;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap .contents .s3_explain .s3_btn {display:none;}
+    #fullpage #section2 .page3_wrap .page_container .s3_contents_wrap {margin-top:40px;}
+    
+    /*section3*/
+    #fullpage #section3 .page_container {padding-top:140px;}
+    #fullpage #section3 .page_container .s4_contents {margin-top:50px;}
+    #fullpage #section3 .page_container .s4_contents ul li {width:100%;}
+    #fullpage #section3 .page_container .s4_contents ul li:nth-child(2), #fullpage #section3 .page_container .s4_contents ul li:nth-child(3), #fullpage #section3 .page_container .s4_contents ul li:nth-child(4) {margin-top:20px;}
+    #fullpage #section3 .page_container .s4_contents ul li a h3 {font-size:1.3em; padding:20px 0 20px 30px;}
+    #fullpage #section3 .page_container .s4_contents ul li a p {padding:0 40px 0 30px; font-size:0.9em;}
+    
+    /*footer*/
+    #fullpage #section4 .ft_wrap .ft_top .ft_top_con h2 {font-size:1.2em; margin-top:40px;}
+    #fullpage #section4 .ft_wrap .ft_top .ft_top_con .ft_top_con_right ul li {margin:10px 20px 0 0;}
+    #fullpage #section4 .ft_wrap .ft_top .ft_top_con .ft_top_con_right ul li a {font-size:0.9em;}
+    
+    /*페이지인디케이터*/
+    #fp-nav {display:none;}
+    
+    header .allMenu {display:block;}
+    
+} /*800px end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

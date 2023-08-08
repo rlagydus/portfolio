@@ -1,0 +1,183 @@
+/*미디어쿼리 반응형웹*/
+/*데스크탑pc 1224*/
+@media screen and (max-width:1224px){
+    #wrap header .h_wrap {width:100%;}
+    #wrap header .h_wrap .h_btm nav ul li {margin-left:40px;}
+    
+    #wrap header .sub_wrap .sub_w {width:100%; padding-left:450px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(1) {width:99px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(2) {width:100px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(3) {width:100px; margin-right:70px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(4) {width:100px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(5) {width:100px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(6) {width:100px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(7) {width:70px;}
+    #wrap header .sub_wrap .sub_w ul li {line-height:1.5;}
+    
+    #wrap .banner .slide2 .slide_contents {padding-left:150px;}
+    #wrap .banner .slide2 .slide_contents h2 {font-size:3.5em;}
+    #wrap .banner .slide3 .slide_contents h2 {margin:0 25%;}
+    #wrap .brand .brandOn {right:15%;}
+    
+    #wrap .menu .menu_wrap {width:100%;}
+    #wrap .menu .menu_wrap .menu_contents ul li img {width:100%;}
+    
+    #wrap .event .event_wrap {width:100%;}
+    #wrap .event .event_wrap .event_contents_wrap .event_contents ul li img {width:100%;}
+    
+    #wrap .sns .sns_wrap {width:100%;}
+    #wrap .sns .sns_wrap .sns_contents {width:100%;}
+    #wrap .sns .sns_wrap .sns_contents ul li {margin-right:5px;}
+    #wrap .sns .sns_wrap .sns_contents ul li a img {width:100%;}
+    
+    #wrap footer .ft_top ul {width:100%;}
+    #wrap footer .ft_top ul li {margin-left:45px;}
+    #wrap footer .ft_btm .ft_btm_wrap {width:100%;}
+    
+} /*1224px end*/
+/*태블릿 1024*/
+@media screen and (max-width:1024px){
+    #wrap header .h_wrap .h_btm nav ul li {margin-left:30px;}
+    #wrap header .h_wrap .h_btm nav ul li a {font-size:1.1em;}
+    
+    #wrap header .sub_wrap .sub_w {width:100%; padding-left:160px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(1) {width:99px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(2) {width:70px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(3) {width:100px; margin-right:40px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(4) {width:90px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(5) {width:80px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(6) {width:87px;}
+    #wrap header .sub_wrap .sub_w ul:nth-child(7) {width:70px;}
+    #wrap header .sub_wrap .sub_w ul li {line-height:1.3;}
+    
+    .main_title {padding:80px 0 70px 0;}
+    
+    .slidesjs-container {height:600px !important;}
+    #wrap .banner .slide2 .slide_contents {padding-left:90px;}
+    #wrap .banner .slide2 .slide_contents h2 {font-size:2.5em;}
+    #wrap .banner .slide2 .slide_contents p {font-size:1.7em;}
+    #wrap .banner .slide2 .slide_contents > p span {font-size:1em;}
+    #wrap .banner .slide3 .slide_contents h2 {width:270px; height:170px;padding-top:40px; margin-left:3%; font-size:3em;}
+    #wrap .banner .slide .slide_contents a {width:150px; height:40px;}
+    #wrap .banner .slide3 .slide_contents a {margin:30px 0 0 -45%;}
+    #wrap .banner .slide .slide_contents a p {font-size:1em; padding:15px 0 15px 25px;}
+    
+    #wrap .brand {background-size:1700px;}
+    #wrap .brand .brandOn {right:10%;}
+    #wrap .brand .brand_wrap h1 {font-size:2.5em;}
+    #wrap .brand .brand_wrap p {font-size:1.3em;}
+    
+    #wrap .menu {padding-bottom:0px;}
+    
+    #wrap .service .service_wrap .findStore {width:300px; height:300px; border-radius:50%; margin:-45px 0 0 -300px;}
+    #wrap .service .service_wrap .findStore a {padding-top:50px;}
+    #wrap .service .service_wrap .findStore a h2 {font-size:1.3em;}
+    #wrap .service .service_wrap .findStore a p {font-size:1em; line-height:1.3;}
+    #wrap .service .service_wrap .homeService {width:300px; height:300px; margin:150px 0 0 20px; background-image:none;}
+    #wrap .service .service_wrap .homeService a {padding-top:50px;}
+    #wrap .service .service_wrap .homeService a h2 {font-size:1.3em;}
+    #wrap .service .service_wrap .homeService a p {font-size:1em; line-height:1.3;}
+    
+    #wrap .event {height:600px;}
+    #wrap .event .event_wrap .event_contents_wrap .event_contents {padding-bottom:0px;}
+    #wrap .event .event_wrap .event_contents_wrap .event_contents ul li {height:350px;}
+    #wrap .event .event_wrap .event_contents_wrap .event_contents ul li p {font-size:1em; line-height:1.4;}
+    .btn {padding:8px 10px; font-size:0.9em; border-radius:6px;}
+    #wrap .event .event_wrap .event_indicator {bottom:20px;}
+    
+    #wrap .sns .sns_wrap .sns_contents ul li {margin-right:3px;}
+    #wrap .sns .sns_wrap .sns_contents ul li a .sns_mask i {font-size:1em; line-height:130px; padding-left:35px;}
+    
+    #wrap footer .ft_top ul li {margin-left:10px;}
+    
+} /*1024px end*/
+/*모바일 800*/
+@media screen and (max-width:800px){
+    #wrap header .h_wrap .h_top {display:none;}
+    #wrap header .h_wrap .h_btm {height:100px;}
+    #wrap header .h_wrap .h_btm .allMenu {display:block; margin-top:30px; margin-left:10px;}
+    #wrap header .h_wrap .h_btm .allMenu_wrap {display:block;}
+    #wrap header .h_wrap .h_btm .allMenu_wrap .allMenu_contents {display:block;}
+    #wrap header .h_wrap .h_btm h1 {float:left; padding:0px 0 0 30%; margin-top:15px;}
+    #wrap header .h_wrap .h_btm nav {display:none;}
+    
+    #wrap .banner .slide2 {background-image:url(../images/banner2_bg1.jpg);}
+    #wrap .banner .slide2 .slide_contents {padding-top:50px; text-align:center; padding-left:0;}
+    #wrap .banner .slide2 .slide_contents h2 {font-size:2.3em;}
+    #wrap .banner .slide2 .slide_contents p {font-size:1.5em;}
+    #wrap .banner .slide2 .slide_contents > p span {font-size:1em;}
+    #wrap .banner .slide3 {background-image:url(../images/banner3_bg1.jpg);}
+    #wrap .banner .slide3 .slide_contents {padding-top:200px; text-align:center}
+    #wrap .banner .slide3 .slide_contents h2 {width:200px; height:150px; padding-top:40px; font-size:2.5em; margin-left:-35%;}
+    #wrap .banner .slide .slide_contents a {width:150px; height:40px;}
+    #wrap .banner .slide3 .slide_contents a {margin:30px 0 0 -90%;}
+    #wrap .banner .slide .slide_contents a p {font-size:1em; padding:15px 0 15px 25px;}
+    
+    #wrap .brand {background-size:1100px; height:300px;}
+    #wrap .brand .brand_wrap {top:80px;}
+    #wrap .brand .brandOn {right:3%;}
+    #wrap .brand .brand_wrap h1 {font-size:2em;}
+    #wrap .brand .brand_wrap p {font-size:1em;}
+    
+    #wrap .menu .menu_wrap .menu_contents ul li {width:49%;}
+    #wrap .menu .menu_wrap .menu_contents ul li:nth-child(3) {margin-left:0;}
+    
+    #wrap .service {background-image:none; background-color:#fff;}
+    #wrap .service .service_wrap > div {left:50%; transition:none; opacity:1; transform:none;}
+    #wrap .service .service_wrap .findStore {width:100%; height:200px; border-radius:0; margin:0 0 0 -50%;}
+    #wrap .service .service_wrap .findStore a {padding-top:20px; border-radius:0;}
+    #wrap .service .service_wrap .homeService {width:100%; height:200px; margin:200px 0 0 -50%; border-radius:0;}
+    #wrap .service .service_wrap .homeService a {padding-top:20px; border-radius:0;}
+    
+    #wrap .event {height:1000px;}
+    #wrap .event .event_wrap .event_contents_wrap .event_contents ul li {width:49%; margin-left:0; height:400px;}
+    
+    #wrap .sns {margin-bottom:70px;}
+    #wrap .sns .sns_wrap .sns_contents {padding:30px 20px;}
+    #wrap .sns .sns_wrap .sns_contents ul li {width:49.3%;}
+    #wrap .sns .sns_wrap .sns_contents ul li a .sns_mask i {font-size:1.7em; line-height:210px; padding-left:70px;}
+    
+    #wrap footer .ft_top ul {padding-top:10px;}
+    #wrap footer .ft_top ul li {margin-left:3px; line-height:1.3;}
+    #wrap footer .ft_top ul li a {font-size:0.8em;}
+    
+} /*800px end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

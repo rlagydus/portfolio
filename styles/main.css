@@ -1,0 +1,652 @@
+@font-face {
+    font-family:'Pretendard';
+	font-weight: 600;
+    src:url(../fonts/Pretendard-SemiBold.eot);
+    src:url(../fonts/Pretendard-SemiBold.woff) format('woff');
+}
+@font-face {
+    font-family:'Pretendard';
+	font-weight: 500;
+    src:url(../fonts/Pretendard-Medium.eot);
+    src:url(../fonts/Pretendard-Medium.woff) format('woff');
+}
+@font-face {
+    font-family:'Pretendard';
+	font-weight: 400;
+    src:url(../fonts/Pretendard-Regular.eot);
+    src:url(../fonts/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family:'Pretendard';
+	font-weight: 300;
+    src:url(../fonts/Pretendard-Light.eot);
+    src:url(../fonts/Pretendard-Light.woff) format('woff');
+}
+@font-face {
+    font-family:'BASKVILL';
+    src:url(../fonts/BASKVILL.eot);
+    src:url(../fonts/BASKVILL.woff) format('woff');
+}
+/*
+font-family: 'BASKVILL', 'Noto Sans', sans-serif;
+font-family: 'Pretendard', 'Noto Sans', sans-serif;
+*/
+
+/*all*/
+* {box-sizing:border-box; font-family: 'Pretendard', 'Noto Sans KR', sans-serif; color:#666;}
+a {text-decoration:none; color:#fff;}
+.skip {display:none;}
+html, body {height:100%;}
+
+/*.main_title {
+    font-size: 9.375em;
+    font-style: normal;
+    font-weight: 400;
+    color: #4271F9;
+    font-family: 'BASKVILL', 'Noto Sans', sans-serif;
+}
+.sub_title {
+    font-size: 1em;
+    color:#C1CFE5;
+    font-weight:400;
+}*/
+
+
+
+
+#wrap {width:100%; height: 100%;}
+#wrap .bg {
+    width:100%;
+    height: 100%;
+    background-color:#ECEDF1;
+}
+
+/*header*/
+#wrap .bg header {
+    width: 100%;
+    height: 185px;
+    position: absolute;
+}
+#wrap .bg header .h_wrap {
+    max-width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+#wrap .bg header .h_wrap .logo {
+    float: left;
+}
+#wrap .bg header .h_wrap .nav {
+    width: 745px;
+    height: 30px;
+    float: right;
+    margin-top: 110px;
+}
+#wrap .bg header .h_wrap .nav ul {}
+#wrap .bg header .h_wrap .nav ul li {
+    float: left;
+    margin-left: 50px;
+}
+#wrap .bg header .h_wrap .nav ul li:first-child {
+    margin-left: 0px;
+}
+#wrap .bg header .h_wrap .nav ul li a {
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #999;
+}
+#wrap .bg header .h_wrap .nav ul li a:hover {
+    color: #4271F9;
+    font-weight: 600;
+}
+
+/*section 공용*/
+.main_title {
+    color: #4271F9;
+    font-size: 3.75rem;
+    font-family: 'BASKVILL';
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.s2_title {
+    color: #4271F9;
+    font-size: 1.875rem;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    margin-bottom: 20px;
+}
+section {
+    height: 100%;
+}
+
+/*s1 메인*/
+#wrap .bg .s1_main {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/main_bg.jpg);
+    background-repeat: no-repeat;
+}
+#wrap .bg .s1_main .s1_wrap {
+    max-width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+#wrap .bg .s1_main .s1_wrap .s1_left {
+    float: left;
+    margin-top: 400px;
+}
+#wrap .bg .s1_main .s1_wrap .s1_left::after {
+    width: 20px;
+    height: 20px;
+    color: #4271F9;
+    position: absolute;
+    content: "";
+    top:-20%;
+}
+#wrap .bg .s1_main .s1_wrap .s1_left img {
+    position: absolute;
+    top: 40%;
+}
+#wrap .bg .s1_main .s1_wrap .s1_left .main {
+    font-size: 9.375rem;
+    color: #4271F9;
+    font-family: 'BASKVILL';
+    margin-bottom: 50px;
+}
+#wrap .bg .s1_main .s1_wrap .s1_left p {
+    font-size: 1.563rem;
+    color: #666F7E;
+}
+#wrap .bg .s1_main .s1_wrap .s1_right {
+    float: right;
+    margin-top: 430px;
+}
+#wrap .bg .s1_main .s1_wrap .s1_right p {
+    color: #4271F9;
+    font-size: 3.125rem;
+    font-weight: 300;
+    line-height: normal;
+}
+#wrap .bg .s1_main .s1_wrap .s1_right p span {
+    color: #4271F9;
+    font-weight: 500;
+}
+
+/*s2 프로필*/
+#wrap .bg .s2_main {
+    background: #F7F7F9;
+}
+#wrap .bg .s2_main .s2_wrap {
+    width: 1620px;
+    margin: 0 auto;
+    padding: 90px 0;
+    height: 100%;
+}
+#wrap .bg .s2_main .s2_wrap .main_title {}
+#wrap .bg .s2_main .s2_wrap .resume_contents {
+    display: flex;
+    justify-content: space-between;
+}
+/*con left*/
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_left {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_left .left_top {
+    margin-bottom: 100px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_left .left_top img {
+    width: 307px;
+    margin-bottom: 35px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_left .left_top p {
+    color: #474747;
+    font-size: 2.188rem;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_left .left_top p strong {
+    color: #4271F9;
+    font-weight: 600;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_left .left_btm {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_left .left_btm ul {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_left .left_btm ul li {
+    color: #444;
+    font-size: 1.375rem;
+    line-height: 150%;
+    letter-spacing: 0.44px;
+}
+/*con center*/
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center .s2_title {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center ul {
+    margin-bottom: 110px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center ul:last-child {
+    margin-bottom: 0px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center ul li {
+    display: flex;
+    margin-bottom: 25px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center ul li:last-child {
+    margin-bottom: 0px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center ul li p {
+    margin-right: 50px;
+    line-height: 140%;
+    color: #666;
+    font-weight: 500;
+    font-size: 1.25rem;
+    letter-spacing: -0.38px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center ul li p:first-child {
+    width: 125px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center ul li p:last-child {
+    margin-right: 0px;
+    width: 373px;
+    word-wrap: break-word;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_center ul li p strong {
+    color: #999;
+    font-weight: 400;
+    line-height: 183%;
+    font-size: 1rem;
+    letter-spacing: -0.304px;
+}
+/*con right*/
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right {
+    
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right .s2_title {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul {
+    margin-top: 35px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li:last-child {
+    margin-bottom: 0px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .skill_left {
+    width: 80px;
+    margin-right: 15px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .skill_left p {
+    color: #999;
+    font-size: 0.938rem;
+    font-weight: 500;
+    letter-spacing: -0.285px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .skill_left p:first-child {
+
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .skill_left .skill_name {
+    margin-top: 5px;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .skill_left p img {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .skill {
+    width: 295px;
+    height: 16px;
+    margin-top: 3%;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .skill span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .skill span:last-child {
+    margin-right: 0px;
+}
+/*skill*/
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .photoshop {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .photoshop span {
+    background-color: #001E36;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .photoshop .skill10 {
+    background-color: #F7F7F9;
+    border: 3px solid #001E36;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .illustrator {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .illustrator span {
+    background-color: #300;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .illustrator .skill8, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .illustrator .skill9, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .illustrator .skill10 {
+    background-color: #F7F7F9;
+    border: 3px solid #300;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .xd {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .xd span {
+    background-color: #470137;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .xd .skill9, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .xd .skill10 {
+    background-color: #F7F7F9;
+    border: 3px solid #470137;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .figma {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .figma span {
+    background-color: #383434;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .figma .skill9, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .figma .skill10 {
+    background-color: #F7F7F9;
+    border: 3px solid #383434;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .indesign {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .indesign span {
+    background-color: #49021F;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .indesign .skill6, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .indesign .skill7, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .indesign .skill8, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .indesign .skill9, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .indesign .skill10 {
+    background-color: #F7F7F9;
+    border: 3px solid #49021F;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .premiere {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .premiere span {
+    background-color: #00005B;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .premiere .skill7, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .premiere .skill8, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .premiere .skill9, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .premiere .skill10 {
+    background-color: #F7F7F9;
+    border: 3px solid #00005B;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .aftereffects {}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .aftereffects span {
+    background-color: #00005B;
+}
+#wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .aftereffects .skill6, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .aftereffects .skill7, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .aftereffects .skill8, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .aftereffects .skill9, #wrap .bg .s2_main .s2_wrap .resume_contents .contents_right ul li .aftereffects .skill10 {
+    background-color: #F7F7F9;
+    border: 3px solid #00005B;
+}
+
+/*s3 콘텐츠 리스트*/
+#wrap .bg .s3_main {
+    background: #4271F9;
+}
+#wrap .bg .s3_main .s3_wrap {
+    width: 1620px;
+    margin: 0 auto;
+    padding: 170px 0;
+    height: 100%;
+}
+#wrap .bg .s3_main .s3_wrap .sub_title {
+    color: #FFF;
+    font-family: 'BASKVILL';
+    font-size: 9.375rem;
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+#wrap .bg .s3_main .s3_wrap .list_wrap {
+    display: flex;
+    justify-content: start;
+    padding-left: 25%;
+}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_left {
+    margin-right: 100px;
+}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_left .list_top {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_left .list_top .s3_title {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_left .list_top .s3_btn {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_left .list_top .s3_btn img {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_left .list_btm {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_center {
+    margin-right: 100px;
+}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_center .list_top .s3_title {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_center .list_top .s3_btn {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_center .list_top .s3_btn img {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_center .list_btm {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_right {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_right .list_top .s3_title {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_right .list_top .s3_btn {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_right .list_top .s3_btn img {}
+#wrap .bg .s3_main .s3_wrap .list_wrap .list_right .list_btm {}
+/*s3 공용*/
+.list_top {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+.s3_title {
+    color: #FFF;
+    font-size: 2.188rem;
+    font-weight: 600;
+    margin-right: 60px;
+}
+.s3_btn {}
+.list_btm {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*s4 UIUX 콘텐츠*/
+#wrap .bg .s4_main {
+    background: #ECEDF1;
+    height: 1100px;
+}
+#wrap .bg .s4_main .s4_wrap {
+    width: 1620px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 137px 0;
+}
+#wrap .bg .s4_main .s4_wrap .main_title {}
+#wrap .bg .s4_main .s4_wrap .uiux_list {}
+#wrap .bg .s4_main .s4_wrap .uiux_list ul {
+    display: flex;
+    flex-flow: wrap;
+}
+#wrap .bg .s4_main .s4_wrap .uiux_list ul li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+}
+#wrap .bg .s4_main .s4_wrap .uiux_list ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+#wrap .bg .s4_main .s4_wrap .uiux_list ul li img {}
+#wrap .bg .s4_main .s4_wrap .uiux_list ul li .pro_mask {}
+#wrap .bg .s4_main .s4_wrap .uiux_list ul li .pro_mask .number {}
+#wrap .bg .s4_main .s4_wrap .uiux_list ul li .pro_mask p {}
+
+/*s5 graphics 콘텐츠*/
+#wrap .bg .s5_main {
+    background: #F7F7F9;
+    height: 1480px;
+}
+#wrap .bg .s5_main .s5_wrap {
+    width: 1620px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 137px 0;
+}
+#wrap .bg .s5_main .s5_wrap .main_title {}
+#wrap .bg .s5_main .s5_wrap .graphics_list {}
+#wrap .bg .s5_main .s5_wrap .graphics_list ul {
+    display: flex;
+    flex-flow: wrap;
+}
+#wrap .bg .s5_main .s5_wrap .graphics_list ul li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+}
+#wrap .bg .s5_main .s5_wrap .graphics_list ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+#wrap .bg .s5_main .s5_wrap .graphics_list ul li img {}
+#wrap .bg .s5_main .s5_wrap .graphics_list ul li .pro_mask {}
+#wrap .bg .s5_main .s5_wrap .graphics_list ul li .pro_mask .number {}
+#wrap .bg .s5_main .s5_wrap .graphics_list ul li .pro_mask p {}
+
+/*s6 edit 콘텐츠*/
+#wrap .bg .s6_main {
+    background: #ECEDF1;
+    height: 1100px;
+}
+#wrap .bg .s6_main .s6_wrap {
+    width: 1620px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 137px 0;
+}
+#wrap .bg .s6_main .s6_wrap .main_title {}
+#wrap .bg .s6_main .s6_wrap .edit_list {}
+#wrap .bg .s6_main .s6_wrap .edit_list ul {
+    display: flex;
+    flex-flow: wrap;
+}
+#wrap .bg .s6_main .s6_wrap .edit_list ul li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+}
+#wrap .bg .s6_main .s6_wrap .edit_list ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+#wrap .bg .s6_main .s6_wrap .edit_list ul li img {}
+#wrap .bg .s6_main .s6_wrap .edit_list ul li .pro_mask {}
+#wrap .bg .s6_main .s6_wrap .edit_list ul li .pro_mask .number {}
+#wrap .bg .s6_main .s6_wrap .edit_list ul li .pro_mask p {}
+
+/*콘텐츠 공용*/
+#wrap .bg .pro_mask {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(66, 113, 249, 0.80);
+    text-align: center;
+    padding: 106px 0;
+    opacity: 0;
+}
+/*#wrap .bg .pro_mask:hover {
+    opacity: 1;
+}*/
+.number {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contents_name {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/*프로젝트*/
+#wrap .bg .uiux_contents {}
+#wrap .bg .uiux_contents .layer_popup {}
+#wrap .bg .uiux_contents .show {}
+#wrap .bg .layer_popup li {}
+#wrap .bg .layer_popup li .close {
+    position:fixed;
+    right:10%;
+    top: 3%;
+    z-index: 9999;
+    display: inline-block;
+    cursor: pointer;
+}
+#wrap .bg .layer_popup li .close img {}
+#wrap .bg .layer_popup li img {}
+
+/*프로젝트 공용*/
+#wrap .bg .all_pro .layer_popup {
+    /*display: none;*/
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+    overflow: auto;
+    text-align: center;
+}
+#wrap .bg .all_pro .show {
+    display: block;
+}
+
+/*프로젝트 개별*/
+#wrap .bg .project1 {}
+
+/*footer*/
+#wrap .bg footer {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/main_bg.jpg);
+    background-repeat: no-repeat;
+}
+#wrap .bg footer .footer_wrap {
+    max-width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#wrap .bg footer .footer_wrap .footer_left {
+    padding-top: 723px;
+}
+#wrap .bg footer .footer_wrap .footer_left .main {
+    color: #4271F9;
+    font-size: 6.25rem;
+    font-family: 'BASKVILL';
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+#wrap .bg footer .footer_wrap .footer_right {
+    padding-top: 275px;
+}
+#wrap .bg footer .footer_wrap .footer_right p {}
+#wrap .bg footer .footer_wrap .footer_right .end_text {
+    color: #4271F9;
+    font-size: 2.188rem;
+    font-weight: 300;
+    line-height: 49px;
+    margin-bottom: 410px;
+}
+#wrap .bg footer .footer_wrap .footer_right .end_text strong {
+    color: #4271F9;
+}
+#wrap .bg footer .footer_wrap .footer_right .copy {
+    color: #97A2B4;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'BASKVILL';
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,161 @@
+/*미디어쿼리 반응형웹*/
+/*데스크탑pc 1224*/
+@media screen and (max-width:1224px){
+    #wrap #wrap_bg #h_wrap header .main_header {width:100%;}
+    #wrap #wrap_bg #bnr {width:100%;}
+    #wrap #wrap_bg #serviceGuide {width:100%;}
+    #wrap #wrap_bg #newProducts {width:100%;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents {width:100%;}
+    #wrap #wrap_bg #review {width:100%;}
+    #wrap #wrap_bg #review .review_bg .slider_review div .review_slide .review_img > p img {width:70%;}
+    #wrap #wrap_bg footer #ft_contents {width:100%;}
+} /*1224px end*/
+/*태블릿 1024*/
+@media screen and (max-width:1024px){
+    /*고정팝업*/
+    #popup {display:none;}
+    
+    /*header*/
+    #wrap #wrap_bg #h_wrap header .main_header h1 {margin:0;}
+    #wrap #wrap_bg #h_wrap header .main_header nav {}
+    #wrap #wrap_bg #h_wrap header .main_header nav .allNav > .nav {margin-right:40px;}
+    #wrap #wrap_bg #h_wrap header .main_header > ul > li {margin-left:20px;}
+    
+    /*서브메뉴 - products*/
+    #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_products {height:500px;}
+    #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_products .sub_products_wrap {width:900px;}
+    #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_products .sub_products_wrap ul .sub {margin-right:25px;}
+    #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_products .sub_products_wrap ul .sub > a, #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_brand .sub_brand_wrap ul .sub > a {font-size:0.938em;}
+    #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_products .sub_products_wrap ul .sub ul li a, #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_brand .sub_brand_wrap ul .sub ul li a {font-size:0.813em;}
+    /*서브메뉴 - brand*/
+    #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_brand {height:300px;}
+    #wrap #wrap_bg #h_wrap header .main_header nav .allNav .nav .sub_brand .sub_brand_wrap {width:600px;}
+    
+    /*section*/
+    /*이용안내 영역*/
+    #wrap #wrap_bg #serviceGuide {width:100%;}
+    #wrap #wrap_bg #serviceGuide ul li a h2 {font-size:1.500em;}
+    #wrap #wrap_bg #serviceGuide ul li {height:100%;}
+    #wrap #wrap_bg #serviceGuide ul li a p {color:#fff; margin:10px 0 20px 34px;}
+    /*신제품 영역*/
+    #wrap #wrap_bg #newProducts .newProducts_contents .slider_new .newProducts_slide a img {width:100%;}
+    /*베스트상품 영역*/
+    #wrap #wrap_bg #bestProducts {width:100%; height:840px;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents {width:100%;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_left {margin-top:30px; text-align:center; margin-left:30%; height:150px;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_left p {display:none;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_left .main_title {font-size:3.750em; margin:0 0 140px;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_left a {display:none;}
+    /*리뷰 영역*/
+    #wrap #wrap_bg #review {width:100%;}
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide .review_text {width:30%;}
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide .review_text > p {font-size:0.813em;}
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide .review_img > p {float:left; width:30%;}
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide .review_img > p img {width:100%;}
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide .review_img {}
+    .bx-controls-direction {font-size:3.125em;}
+    .bx-controls-direction a {top:40%; width:50px; height:50px;}
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide {margin-left:150px;}
+    /*sns 영역*/
+    #wrap #wrap_bg #sns {width:100%;}
+    #wrap #wrap_bg #sns .sns_bg .sns_contents .sns_left {display:none;}
+    #wrap #wrap_bg #sns .sns_bg .sns_contents .sns_center {display:none;}
+    #wrap #wrap_bg #sns .sns_bg .sns_contents .sns_right {width:100%;}
+    #wrap #wrap_bg #sns .sns_bg .sns_contents .sns_right .sns_box {width:26%; margin: 0 0 2% 11%; height:205px;}
+    
+    /*footer*/
+    #wrap #wrap_bg footer #ft_contents {width:98%;}
+    #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_left p, #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right p {font-size:0.813em;}
+    #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter p {font-size:1.063em;}
+    
+} /*1024px end*/
+/*모바일 800*/
+@media screen and (max-width:800px){
+    /*header*/
+    #wrap #wrap_bg #h_wrap header .main_header h1 {margin:0 0 0 34%;}
+    #wrap #wrap_bg #h_wrap header .main_header nav {display:none;}
+    #wrap #wrap_bg #h_wrap header .main_header i {display:block; cursor:pointer; margin-top:30px;}
+    #wrap #wrap_bg #h_wrap header .main_header .allMenu_wrap .allMenu_contents {display:block;}
+    
+    #wrap #wrap_bg #h_wrap header .main_header > ul {display:block;}
+    #wrap #wrap_bg #h_wrap header .main_header ul .mypage {display:none;}
+    #wrap #wrap_bg #h_wrap header .main_header .search_popup_wrap {width:100%;}
+    #wrap #wrap_bg #h_wrap header .main_header .search_popup_wrap .search_popup {width:100%; height: 100%; padding:160px 0 0 0;}
+    #wrap #wrap_bg #h_wrap header .main_header .search_popup_wrap .search_popup .search_close {top:20px; right:20px;}
+    #wrap #wrap_bg #h_wrap header .main_header .search_popup_wrap .search_popup .frmSearch fieldset .text_wrap .search_text {font-size: 1.188em;}
+    
+    /*section*/
+    /*광고배너 영역*/
+    #wrap #wrap_bg #bnr .slide_wrap .slide .slide_contents {font-size:70%;}
+    #wrap #wrap_bg #bnr .slide_wrap .slide:nth-child(1) .slide_contents {text-align:center; margin-left:0;}
+    /*이용안내 영역*/
+    #wrap #wrap_bg #serviceGuide ul li {width:100%;}
+    #wrap #wrap_bg #serviceGuide ul li a h2 {padding:25px 0 0 70px;}
+    #wrap #wrap_bg #serviceGuide ul li a p {margin:10px 0 20px 70px;}
+    /*신제품 영역*/
+    
+    /*베스트상품 영역*/
+    #wrap #wrap_bg #bestProducts {background-image:none; height: 750px;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_left {margin:0 0 0 25%;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_left .main_title {font-size:2.500em; margin:20px 0 140px;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_right ul {width:100%;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_right ul li {height:270px;}
+    #wrap #wrap_bg #bestProducts .bestProducts_bg .bestProducts_contents .bestProducts_right ul li a img {width:100%;}
+    /*리뷰 영역*/
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide .review_img > p:nth-child(2) {display:none;}
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide .review_img > p {width:50%;}
+    #wrap #wrap_bg #review .review_bg .slider_review .review_slide {margin-left:121px;}
+    /*sns 영역*/
+    #wrap #wrap_bg #sns {width:100%;}
+    #wrap #wrap_bg #sns .sns_bg .sns_contents .sns_right {width:100%;}
+    #wrap #wrap_bg #sns .sns_bg .sns_contents .sns_right .sns_box, #wrap #wrap_bg #sns .sns_bg .sns_contents .sns_right .sns_box:nth-child(1), #wrap #wrap_bg #sns .sns_bg .sns_contents .sns_right .sns_box:nth-child(4) {height:210px; width:43%; margin: 0 0 2% 5%;}
+    
+    /*footer*/
+    #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right {width:70%; margin:0;}
+    #wrap #wrap_bg footer #ft_contents #ft_top .sns_icon {float: right;}
+    #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter p {font-size:	0.875em;}
+    #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter .lush_news .news_email {padding:5px 50px 5px 10px;}
+    #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right .ft_newsLetter .lush_news .news_btn {padding:5px 10px;}
+    #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_left p, #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right p, #wrap #wrap_bg footer #ft_contents #ft_top ul li {font-size:0.750em;}
+    #wrap #wrap_bg footer #ft_contents #ft_btm .ft_btm_right > p {margin-top:15px;}
+    
+} /*800px end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
